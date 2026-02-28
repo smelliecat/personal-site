@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Google Font: Inter ────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── Smooth scroll & anchor offset ─────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :target {
+    scroll-margin-top: 5rem;
+  }
+
+  /* Remove default focus outline; replaced by custom ring */
+  *:focus {
+    outline: none;
+  }
+
+  *:focus-visible {
+    @apply ring-2 ring-blue-500 ring-offset-2 ring-offset-white dark:ring-offset-slate-950 rounded;
+  }
+}
+
+/* ── rehype-pretty-code dual-theme switching ───────────────────────────────── */
+/* In light mode, hide the dark-theme code blocks; vice versa */
+:not(.dark) [data-theme='dark'],
+.dark [data-theme='light'] {
+  display: none;
+}
+
+/* Code block container */
+[data-rehype-pretty-code-fragment] {
+  @apply my-4;
+}
+
+[data-rehype-pretty-code-fragment] pre {
+  @apply rounded-lg px-4 py-3 overflow-x-auto text-sm;
+  background-color: #f6f8fa; /* github-light background */
+}
+
+.dark [data-rehype-pretty-code-fragment] pre {
+  background-color: #22272e; /* github-dark-dimmed background */
+}
+
+/* Inline code (not inside pre) */
+:not(pre) > code {
+  @apply bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 rounded px-1.5 py-0.5 text-sm font-mono;
+}
+
+/* ── Utility: visually-hidden for a11y ─────────────────────────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

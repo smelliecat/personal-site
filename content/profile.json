@@ -1,0 +1,51 @@
+{
+  "name": "Kwesi Adu Cobbina",
+  "title": "PhD Candidate in Computer Science",
+  "affiliation": "University of Maryland, College Park",
+  "advisors": [
+    { "name": "Prof. Tianyi Zhou", "url": "https://tianyizhou.github.io/" },
+    { "name": "Prof. Tom Goldstein", "url": "https://www.cs.umd.edu/~tomg/" }
+  ],
+  "email": "kcobbina@umd.edu",
+  "location": "College Park, MD",
+  "expectedGraduation": "January 2027",
+  "photo": "/photo.jpg",
+  "researchSummary": "I am a PhD candidate in Computer Science at the University of Maryland, advised by Prof. Tianyi Zhou and Prof. Tom Goldstein. My research sits at the intersection of natural language processing, multimodal learning, and optimization. I study how large language models encode and leverage in-context information — from positional biases in demonstration placement to efficient reasoning trace compression — with the goal of making LLMs more robust, efficient, and equitable.",
+  "researchInterests": [
+    "In-Context Learning",
+    "Large Language Models",
+    "Multimodal Learning",
+    "Natural Language Processing",
+    "LLM Fairness & Robustness",
+    "Optimization"
+  ],
+  "links": {
+    "scholar": "https://scholar.google.com/citations?user=Xt49YYgAAAAJ",
+    "github": "https://github.com/kwesi-cobbina",
+    "linkedin": "https://linkedin.com/in/kwesi-cobbina",
+    "twitter": "",
+    "cv": "/cv.pdf"
+  },
+  "awards": [
+    {
+      "name": "Dean's Fellowship",
+      "org": "University of Maryland, College Park",
+      "year": "2021–2023"
+    },
+    {
+      "name": "Computer Science Department Award",
+      "org": "GIMPA",
+      "year": "2021"
+    },
+    {
+      "name": "College Honor Award",
+      "org": "GIMPA",
+      "year": "2016–2018"
+    },
+    {
+      "name": "Eroll King Fellowship",
+      "org": "ELiTE Education",
+      "year": "2017"
+    }
+  ]
+}

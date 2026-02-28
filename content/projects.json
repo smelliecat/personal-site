@@ -1,0 +1,69 @@
+[
+  {
+    "id": "meta-vector-research",
+    "title": "Meta-Vector: In-Context Vector Arithmetic",
+    "description": "A test-time meta-learning approach that steers model behavior via in-context vector arithmetic, offering a practical alternative to few-shot ICL under strict context budgets. Includes a reproducible codebase and open-source toolkit (in progress).",
+    "tags": ["Meta-Learning", "In-Context Learning", "LLM", "PyTorch"],
+    "links": {
+      "paper": null,
+      "code": null
+    },
+    "featured": true,
+    "type": "research"
+  },
+  {
+    "id": "positional-bias-suite",
+    "title": "Positional Bias Analysis Suite for ICL",
+    "description": "An analysis suite for quantifying LLM sensitivity to demonstration ordering and placement in prompts. Supports large-scale evaluations across multiple model families and tasks, with distilled prompt-design recommendations.",
+    "tags": ["In-Context Learning", "Evaluation", "Python", "NLP"],
+    "links": {
+      "paper": null,
+      "code": null
+    },
+    "featured": true,
+    "type": "research"
+  },
+  {
+    "id": "aae-fairness",
+    "title": "AAE Fairness Evaluation Framework",
+    "description": "A reproducible codebase and synthetic dataset combining real and LLM-generated biased text in African American English (AAE), enabling automated fairness evaluation, ablation studies, and dialect-aware benchmarking.",
+    "tags": ["Fairness", "NLP", "AAE", "Dataset", "Python"],
+    "links": {
+      "paper": null,
+      "code": null
+    },
+    "featured": false,
+    "type": "research"
+  },
+  {
+    "id": "churchcast",
+    "title": "ChurchCast",
+    "description": "A cross-platform mobile app enabling churches to stream services live, schedule events, and engage communities in a single unified workflow. Features push notifications, content management, and social sharing.",
+    "tags": ["Mobile", "Cross-Platform", "Push Notifications", "Content Management"],
+    "links": {},
+    "featured": true,
+    "type": "engineering"
+  },
+  {
+    "id": "activity-recognition",
+    "title": "Phone + Ankle-Band Activity Recognition",
+    "description": "A sensor-fusion pipeline combining smartphone accelerometer/gyroscope signals with an ankle-band sensor to capture lower-body dynamics missed by phone-only trackers. Includes feature extraction and classification models with controlled ablation experiments.",
+    "tags": ["Sensor Fusion", "Activity Recognition", "Machine Learning", "Python"],
+    "links": {
+      "code": null
+    },
+    "featured": false,
+    "type": "engineering"
+  },
+  {
+    "id": "karaagroai",
+    "title": "KaraAgroAI Datasets",
+    "description": "Co-authored the KaraAgroAI Cocoa and Maize datasets (Harvard Dataverse), curating labels, documentation, and release artifacts for agricultural AI research in West Africa. Benchmarked pretrained models on these datasets.",
+    "tags": ["Dataset", "Agriculture", "Computer Vision", "Africa"],
+    "links": {
+      "dataset": "https://dataverse.harvard.edu/PLACEHOLDER"
+    },
+    "featured": false,
+    "type": "research"
+  }
+]

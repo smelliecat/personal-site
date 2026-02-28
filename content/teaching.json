@@ -1,0 +1,35 @@
+[
+  {
+    "id": "cmsc422-sp24",
+    "code": "CMSC 422",
+    "title": "Introduction to Machine Learning",
+    "role": "Teaching Assistant",
+    "institution": "University of Maryland",
+    "semester": "Spring",
+    "year": 2024,
+    "description": "Supported course delivery for an upper-division undergraduate ML course covering supervised learning, neural networks, probabilistic models, and model evaluation. Held weekly office hours, graded assignments and exams, and mentored students on course projects.",
+    "tags": ["Machine Learning", "Python", "Undergraduate"]
+  },
+  {
+    "id": "cmsc723-fa23",
+    "code": "CMSC 723",
+    "title": "Computational Linguistics I",
+    "role": "Teaching Assistant",
+    "institution": "University of Maryland",
+    "semester": "Fall",
+    "year": 2023,
+    "description": "Assisted in a graduate-level NLP course covering language models, parsing, information extraction, and text classification. Developed and graded programming assignments; led discussion sections on transformer architectures.",
+    "tags": ["NLP", "Computational Linguistics", "Graduate", "Transformers"]
+  },
+  {
+    "id": "elite-ai-curriculum",
+    "code": "AI Curriculum",
+    "title": "Project-Based AI / ML Curriculum",
+    "role": "Curriculum Designer & Instructor",
+    "institution": "ELiTE (Emerging Labs)",
+    "semester": "Summer",
+    "year": 2022,
+    "description": "Designed and delivered hands-on AI/ML curriculum for student camps and instructor training programs. Topics covered Python fundamentals, ML workflows (data processing → training → evaluation), and real-world model deployment.",
+    "tags": ["AI Education", "Python", "ML Workflows", "Outreach", "K-12"]
+  }
+]

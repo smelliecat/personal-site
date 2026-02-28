@@ -1,0 +1,39 @@
+---
+title: "When Should Your LLM Mimic AAE?"
+date: "2025-06-01"
+excerpt: "Reflections on our NAACL 2025 paper examining the ethical and practical dimensions of LLMs generating African American English."
+tags: ["Fairness", "Language Diversity", "NLP", "NAACL"]
+readingTime: "6 min"
+---
+
+Language models trained on vast corpora of internet text pick up patterns from many dialects and registers — including African American English (AAE). Our NAACL 2025 paper asks a nuanced question: even if a model *can* produce AAE-inflected text, when *should* it?
+
+## Why This Question Matters
+
+AAE is a fully systematic, rule-governed dialect of American English with distinct phonological, morphological, and syntactic features. Historically, AAE speakers have faced linguistic discrimination in many institutional contexts. When an LLM produces AAE in inappropriate settings, it risks:
+
+- **Reinforcing stereotypes** by associating AAE with certain topics or registers
+- **Producing caricatures** rather than authentic, community-appropriate language use
+- **Undermining trust** among AAE-speaking users who encounter their dialect misapplied
+
+## Our Approach
+
+We construct a benchmark of contexts where AAE code-switching is:
+
+1. **Appropriate and natural** — cultural content, informal community-directed writing, creative expression
+2. **Inappropriate** — professional documents, factual reporting, clinical contexts
+
+We then evaluate several frontier LLMs on whether they elect to use AAE features, comparing against human judgments of appropriateness.
+
+## Key Findings
+
+- LLMs frequently produce AAE features in contexts where human raters judge them inappropriate
+- The degree of dialect mimicry varies substantially across model families and sizes
+- Explicit prompting for "standard American English" suppresses some — but not all — AAE features
+- Fine-tuned instruction-following models show different patterns than base models
+
+## Looking Forward
+
+This work is part of a broader effort to build more culturally aware and equitable language models. The benchmark we release is designed as a living testbed: as models evolve, researchers can measure whether dialect-related harms are being reduced or inadvertently amplified by capability improvements.
+
+Equitable NLP is not just about accuracy — it is about who gets to see their language treated with dignity.
